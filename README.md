@@ -24,9 +24,9 @@ go run main.go
 ```json
 [
     {
-          "id": 1,
-          "title": "Задача 1",
-          "completed": true
+         "id": 1,
+         "title": "Задача 1",
+         "completed": true
     },
     {
          "id": 2,
@@ -41,7 +41,7 @@ go run main.go
 
 ```json
     {
-        "id": 1,
+         "id": 1,
          "title": "Обновленная задача",
          "completed": false
     }
@@ -53,7 +53,7 @@ go run main.go
 ```json
     {
          "title": "Новая задача",
-          "completed": true
+         "completed": true
     }
 ```
 ### Удаление задачи
