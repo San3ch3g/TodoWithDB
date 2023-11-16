@@ -23,8 +23,16 @@ go run main.go
 * Метод: GET
 ```json
 [
-    {"id": 1, "title": "Задача 1", "completed": true},
-    {"id": 2, "title": "Задача 2", "completed": false},
+    {
+          "id": 1,
+          "title": "Задача 1",
+          "completed": true
+    },
+    {
+         "id": 2,
+         "title": "Задача 2",
+         "completed": false
+    },
 ]
 ```
 ### Обновление задачи
@@ -32,25 +40,28 @@ go run main.go
 * Метод: POST
 
 ```json
-[
-    {"id": 1, "title": "Обновленная задача", "completed": false}
-]
+    {
+        "id": 1,
+         "title": "Обновленная задача",
+         "completed": false
+    }
 ```
 ### Добавление новой задачи
 * URL: /create
 * Метод: POST
 
 ```json
-[
-    {"title": "Новая задача", "completed": true}
-]
+    {
+         "title": "Новая задача",
+          "completed": true
+    }
 ```
 ### Удаление задачи
 * URL: /delete
 * Метод: POST
 
 ```json
-[
-    {"id": 1}
-]
+    {
+         "id": 1
+    }
 ```
